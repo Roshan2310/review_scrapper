@@ -5386,3 +5386,26 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.10:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'Manzoor Hussain', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'I love my phone'}, {'Product': 'redmi', 'Name': 'SAGAR T THORBOLE', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is Honest Review. Performance is best. 5/5Display is also best. 5/5Camera is Average 3/5Battery is Best 5/5(No Lag No Hang, Smooth UI, Perfect Design) Don't Think Go for it"}, {'Product': 'redmi', 'Name': 'sushant kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super smart phone nice display love this phone'}, {'Product': 'redmi', 'Name': 'Ammy Singh', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Nice product'}, {'Product': 'redmi', 'Name': 'Naidu Sasikala', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile'}, {'Product': 'redmi', 'Name': 'Snigdhata Ghosh', 'Rating': '4', 'CommentHead': 'Classy product', 'Comment': 'Value for money.... Good quality, Good looking...'}, {'Product': 'redmi', 'Name': 'Anamika Sarkar', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Camera quality very very bad not good'}, {'Product': 'redmi', 'Name': 'Araman Ali', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Nice Product'}, {'Product': 'redmi', 'Name': 'Sanku Maity', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Good quality'}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent'}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Excellent'}]
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:15] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:15:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result [{'Product': 'redmiearphone', 'Name': 'SHIKHA SAURABH', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': "The sound quality is good but the mic is bot working properly. It is not the original so don't have much expectation from it"}, {'Product': 'redmiearphone', 'Name': 'Devendra Kumar Yadav', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Best quality'}, {'Product': 'redmiearphone', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Mic not working properly'}]
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:23] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [16/Jul/2023 13:21:23] "[33mGET /style.css HTTP/1.1[0m" 404 -
